@@ -23,6 +23,11 @@ public class Ec2Application {
 
 	@GetMapping("/hell")
 	public String hell(){
+		return "hello my world";
+	}
+
+	@GetMapping("/shilpa")
+	public String shilpa(){
 		return "hello my name is shilpa";
 	}
 
