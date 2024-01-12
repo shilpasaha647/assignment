@@ -21,4 +21,10 @@ public class Ec2Application {
 		return "Hello my World!!!";
 	}
 
+	@GetMapping("/hell")
+	public String hell(){
+		return "hello my name is shilpa";
+	}
+
+
 }
